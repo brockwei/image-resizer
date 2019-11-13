@@ -1,0 +1,6 @@
+@import "~antd/dist/antd.css";
+
+.label {
+    font-weight: 700;
+    margin: 0;
+}

@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "adm-zip": "^0.4.13",
+    "adm-zip": "^0.5.9",
     "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "sharp": "^0.23.2"
+    "express": "^4.17.2",
+    "sharp": "^0.29.3"
   }
 }

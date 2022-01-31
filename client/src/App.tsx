@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios, { AxiosResponse, AxiosError } from 'axios';
-import { Upload, Icon, Button, Radio, InputNumber, Card, message } from 'antd';
+import { Upload, Button, Radio, InputNumber, Card, message } from 'antd';
+import { InboxOutlined } from '@ant-design/icons';
 import './App.css';
 
 const { Dragger } = Upload;
@@ -128,7 +129,7 @@ const App = () => {
       >
         <Dragger {...props} style={{ height: '300px' }}>
           <p className="ant-upload-drag-icon">
-            <Icon type="inbox" />
+            <InboxOutlined />
           </p>
           <p className="ant-upload-text">Click or drag your images to this area to upload</p>
           <p className="ant-upload-hint">Max combined file size: 100mb</p>
